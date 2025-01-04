@@ -90,11 +90,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgba(250, 235, 215, 0.211);
+    background-color:rgba(250, 235, 215, 0.062);
     width: 80%;
     max-width: 1000px;
     height: 350px;
-    margin: 20px auto;   
+    margin: 20px auto; 
+    border: 1px solid gray;  
   }
 
   .paragraph{
@@ -125,13 +126,25 @@
     height: 100px;
     background-color: black ;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+   
   }
 
   .items{
-    display: block;
+    text-align: center;
+    padding: 0 20px;
+    flex-direction: column;
+    position: relative;
+  }
 
+  .items h2{
+    margin: 0;
+  }
+
+  .items p{
+    margin: 5px 0 0;
+    
   }
   
   .number{
@@ -143,6 +156,7 @@
   }
 
 
+
   .container3{
     width: 80%;
     max-width: 1000px;
@@ -152,5 +166,7 @@
     align-items: center;
     background-color: antiquewhite;
     margin: 20px auto;
+
+    
   }
 
