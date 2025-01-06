@@ -90,7 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgba(250, 235, 215, 0.062);
+    background-color:rgba(128, 128, 128, 0.074);
     width: 80%;
     max-width: 1000px;
     height: 350px;
@@ -158,6 +158,7 @@
     display: flex;
     justify-self: center;
     border: 1px solid gray;
+    background-color:rgba(128, 128, 128, 0.074);
     margin-top: 20px;
   }
 
@@ -182,6 +183,12 @@
   padding: 10px;
 }
 
+.logotext a{
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+
 .forheading{
   padding: 10px;
 }
@@ -190,4 +197,119 @@
   color: goldenrod;
   padding-right: 10px;
 }
+
+.container4{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.all-items{
+  display: flex;
+}
+
+.item{
+  display: flex;
+  border: 1px solid gray;
+  background-color:rgba(128, 128, 128, 0.074);
+  margin: 15px;
+}
+
+.block2-img img{
+  width: 100%;
+  padding: 5px;
+}
+
+.block3-img img{
+  width: 100%;
+  padding: 5px;
+}
+
+.block4-img img{
+  width: 100%;
+  padding: 5px;
+} 
+
+.describe{
+  padding: 20px;
+}
+
+.describe h3{
+  color: gray;
+}
+
+.describe p{
+  font-size: smaller;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.describe a{
+  color: black;
+  text-decoration: none;
+}
+
+.Cardcontainer{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 70%;
+}
+
+.card{
+  display: flex;
+}
+
+.subcard img{
+  width: 100%;
+  height: 50%;
+}
+
+.cardtext{
+  margin: 20px;
+}
+
+.cardtext p{
+ margin-top: 20px;
+ margin-bottom: 30px;
+}
+
+.cardtext a{
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.vertical{
+  border-left: 2px solid gray;
+}
+
+.container5{
+  display: flex;
+  justify-self: center;
+  width: 80%;
+  max-width: 1000px;
+  margin-top: 20px;
+  border: 1px solid gray;
+}
+
+.Imagetext{
+  display: flex;
+}
+
+.subtext{
+  background-color:rgba(128, 128, 128, 0.074);
+}
+
+.Onlytext{
+  margin: 20px;
+  padding: 5px;
+}
+
+.Onlytext h3{
+  color: gray;
+  margin-bottom: 10px;
+}
+
 
